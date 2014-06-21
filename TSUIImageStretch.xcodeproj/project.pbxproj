@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288FA8861955824000312BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA8851955824000312BAD /* Foundation.framework */; };
+		288FA8881955824000312BAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA8871955824000312BAD /* CoreGraphics.framework */; };
+		288FA88A1955824000312BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA8891955824000312BAD /* UIKit.framework */; };
+		288FA8901955824000312BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288FA88E1955824000312BAD /* InfoPlist.strings */; };
+		288FA8921955824000312BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288FA8911955824000312BAD /* main.m */; };
+		288FA8961955824000312BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288FA8951955824000312BAD /* AppDelegate.m */; };
+		288FA8981955824000312BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288FA8971955824000312BAD /* Images.xcassets */; };
+		288FA89F1955824000312BAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA89E1955824000312BAD /* XCTest.framework */; };
+		288FA8A01955824000312BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA8851955824000312BAD /* Foundation.framework */; };
+		288FA8A11955824000312BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288FA8891955824000312BAD /* UIKit.framework */; };
+		288FA8A91955824000312BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288FA8A71955824000312BAD /* InfoPlist.strings */; };
+		288FA8AB1955824000312BAD /* TSUIImageStretchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288FA8AA1955824000312BAD /* TSUIImageStretchTests.m */; };
+		288FA8B6195583AD00312BAD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288FA8B5195583AD00312BAD /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288FA8A21955824000312BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288FA87A1955824000312BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288FA8811955824000312BAD;
+			remoteInfo = TSUIImageStretch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288FA8821955824000312BAD /* TSUIImageStretch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSUIImageStretch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288FA8851955824000312BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		288FA8871955824000312BAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		288FA8891955824000312BAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288FA88D1955824000312BAD /* TSUIImageStretch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSUIImageStretch-Info.plist"; sourceTree = "<group>"; };
+		288FA88F1955824000312BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		288FA8911955824000312BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		288FA8931955824000312BAD /* TSUIImageStretch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSUIImageStretch-Prefix.pch"; sourceTree = "<group>"; };
+		288FA8941955824000312BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		288FA8951955824000312BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		288FA8971955824000312BAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		288FA89D1955824000312BAD /* TSUIImageStretchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSUIImageStretchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288FA89E1955824000312BAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		288FA8A61955824000312BAD /* TSUIImageStretchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSUIImageStretchTests-Info.plist"; sourceTree = "<group>"; };
+		288FA8A81955824000312BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		288FA8AA1955824000312BAD /* TSUIImageStretchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSUIImageStretchTests.m; sourceTree = "<group>"; };
+		288FA8B4195583AD00312BAD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		288FA8B5195583AD00312BAD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288FA87F1955824000312BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA8881955824000312BAD /* CoreGraphics.framework in Frameworks */,
+				288FA88A1955824000312BAD /* UIKit.framework in Frameworks */,
+				288FA8861955824000312BAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288FA89A1955824000312BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA89F1955824000312BAD /* XCTest.framework in Frameworks */,
+				288FA8A11955824000312BAD /* UIKit.framework in Frameworks */,
+				288FA8A01955824000312BAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288FA8791955824000312BAD = {
+			isa = PBXGroup;
+			children = (
+				288FA88B1955824000312BAD /* TSUIImageStretch */,
+				288FA8A41955824000312BAD /* TSUIImageStretchTests */,
+				288FA8841955824000312BAD /* Frameworks */,
+				288FA8831955824000312BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288FA8831955824000312BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288FA8821955824000312BAD /* TSUIImageStretch.app */,
+				288FA89D1955824000312BAD /* TSUIImageStretchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288FA8841955824000312BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288FA8851955824000312BAD /* Foundation.framework */,
+				288FA8871955824000312BAD /* CoreGraphics.framework */,
+				288FA8891955824000312BAD /* UIKit.framework */,
+				288FA89E1955824000312BAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		288FA88B1955824000312BAD /* TSUIImageStretch */ = {
+			isa = PBXGroup;
+			children = (
+				288FA8941955824000312BAD /* AppDelegate.h */,
+				288FA8951955824000312BAD /* AppDelegate.m */,
+				288FA8971955824000312BAD /* Images.xcassets */,
+				288FA88C1955824000312BAD /* Supporting Files */,
+				288FA8B4195583AD00312BAD /* MainViewController.h */,
+				288FA8B5195583AD00312BAD /* MainViewController.m */,
+			);
+			path = TSUIImageStretch;
+			sourceTree = "<group>";
+		};
+		288FA88C1955824000312BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288FA88D1955824000312BAD /* TSUIImageStretch-Info.plist */,
+				288FA88E1955824000312BAD /* InfoPlist.strings */,
+				288FA8911955824000312BAD /* main.m */,
+				288FA8931955824000312BAD /* TSUIImageStretch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288FA8A41955824000312BAD /* TSUIImageStretchTests */ = {
+			isa = PBXGroup;
+			children = (
+				288FA8AA1955824000312BAD /* TSUIImageStretchTests.m */,
+				288FA8A51955824000312BAD /* Supporting Files */,
+			);
+			path = TSUIImageStretchTests;
+			sourceTree = "<group>";
+		};
+		288FA8A51955824000312BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288FA8A61955824000312BAD /* TSUIImageStretchTests-Info.plist */,
+				288FA8A71955824000312BAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288FA8811955824000312BAD /* TSUIImageStretch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288FA8AE1955824000312BAD /* Build configuration list for PBXNativeTarget "TSUIImageStretch" */;
+			buildPhases = (
+				288FA87E1955824000312BAD /* Sources */,
+				288FA87F1955824000312BAD /* Frameworks */,
+				288FA8801955824000312BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSUIImageStretch;
+			productName = TSUIImageStretch;
+			productReference = 288FA8821955824000312BAD /* TSUIImageStretch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288FA89C1955824000312BAD /* TSUIImageStretchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288FA8B11955824000312BAD /* Build configuration list for PBXNativeTarget "TSUIImageStretchTests" */;
+			buildPhases = (
+				288FA8991955824000312BAD /* Sources */,
+				288FA89A1955824000312BAD /* Frameworks */,
+				288FA89B1955824000312BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288FA8A31955824000312BAD /* PBXTargetDependency */,
+			);
+			name = TSUIImageStretchTests;
+			productName = TSUIImageStretchTests;
+			productReference = 288FA89D1955824000312BAD /* TSUIImageStretchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288FA87A1955824000312BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wangtao;
+				TargetAttributes = {
+					288FA89C1955824000312BAD = {
+						TestTargetID = 288FA8811955824000312BAD;
+					};
+				};
+			};
+			buildConfigurationList = 288FA87D1955824000312BAD /* Build configuration list for PBXProject "TSUIImageStretch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 288FA8791955824000312BAD;
+			productRefGroup = 288FA8831955824000312BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288FA8811955824000312BAD /* TSUIImageStretch */,
+				288FA89C1955824000312BAD /* TSUIImageStretchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288FA8801955824000312BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA8901955824000312BAD /* InfoPlist.strings in Resources */,
+				288FA8981955824000312BAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288FA89B1955824000312BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA8A91955824000312BAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288FA87E1955824000312BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA8961955824000312BAD /* AppDelegate.m in Sources */,
+				288FA8B6195583AD00312BAD /* MainViewController.m in Sources */,
+				288FA8921955824000312BAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288FA8991955824000312BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FA8AB1955824000312BAD /* TSUIImageStretchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288FA8A31955824000312BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288FA8811955824000312BAD /* TSUIImageStretch */;
+			targetProxy = 288FA8A21955824000312BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288FA88E1955824000312BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288FA88F1955824000312BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		288FA8A71955824000312BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288FA8A81955824000312BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288FA8AC1955824000312BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		288FA8AD1955824000312BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288FA8AF1955824000312BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIImageStretch/TSUIImageStretch-Prefix.pch";
+				INFOPLIST_FILE = "TSUIImageStretch/TSUIImageStretch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		288FA8B01955824000312BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIImageStretch/TSUIImageStretch-Prefix.pch";
+				INFOPLIST_FILE = "TSUIImageStretch/TSUIImageStretch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		288FA8B21955824000312BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSUIImageStretch.app/TSUIImageStretch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIImageStretch/TSUIImageStretch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TSUIImageStretchTests/TSUIImageStretchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		288FA8B31955824000312BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TSUIImageStretch.app/TSUIImageStretch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSUIImageStretch/TSUIImageStretch-Prefix.pch";
+				INFOPLIST_FILE = "TSUIImageStretchTests/TSUIImageStretchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288FA87D1955824000312BAD /* Build configuration list for PBXProject "TSUIImageStretch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288FA8AC1955824000312BAD /* Debug */,
+				288FA8AD1955824000312BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288FA8AE1955824000312BAD /* Build configuration list for PBXNativeTarget "TSUIImageStretch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288FA8AF1955824000312BAD /* Debug */,
+				288FA8B01955824000312BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		288FA8B11955824000312BAD /* Build configuration list for PBXNativeTarget "TSUIImageStretchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288FA8B21955824000312BAD /* Debug */,
+				288FA8B31955824000312BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288FA87A1955824000312BAD /* Project object */;
+}
